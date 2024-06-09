@@ -1,0 +1,11 @@
+app:
+  name: frontend
+  # group: backend
+  container:
+    image: docker.io/tienshawn/web-patch1:2.0
+    port: 80
+    imagePullPolicy: Always
+    # protocol: TCP
+  service:
+    port: 80
+    nodePort: 30007 #web nodePort, access with http://<node-ip>:30007/

@@ -13,4 +13,4 @@ app:
         value: value
   service:
     port: 80
-    nodePort: 30007 #web nodePort, access with http://<node-ip>:30007/
+    nodePort: 31007 #web nodePort, access with http://<node-ip>:31007/

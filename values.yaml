@@ -3,7 +3,7 @@ app:
   # group: backend
   replicaCount: 1
   container:
-    image: docker.io/tienshawn/student-web-cont:1.0
+    image: docker.io/tienshawn/student-web-cont:d62f419e
     port: 80
     imagePullPolicy: Always
     # protocol: TCP
